@@ -31,6 +31,6 @@ void algorithm_luhn(string s){
 
 int main(){
     string s = "5062821234567892"; //example temp
-    algorithm_luna(s);
+    algorithm_luhn(s);
     return 0;
 }
