@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void algorithm_luna(string s){
+void algorithm_luhn(string s){
     int sum = 0;
     cout << "Your input card: " << s << endl; // Our example
     for (int i = 0; i < s.length(); i++){
@@ -22,10 +22,10 @@ void algorithm_luna(string s){
         }
     }
     if(sum%10 == 0){
-        cout << "This credit card " << s << " is correct by algorithm Luna\n";
+        cout << "This credit card " << s << " is correct by algorithm Luhn\n";
     }
     else{
-        cout << "This credit card " << s << " is incorrect by algorithm Luna\n";
+        cout << "This credit card " << s << " is incorrect by algorithm Luhn\n";
     }
 }
 
